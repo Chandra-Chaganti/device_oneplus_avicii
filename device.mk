@@ -158,8 +158,8 @@ PRODUCT_PACKAGES += \
     ueventd.qcom.rc
 
 # DeviceSettings
-#PRODUCT_PACKAGES += \
-#    DeviceSettings
+PRODUCT_PACKAGES += \
+    DeviceSettings
 
 # Display
 PRODUCT_PACKAGES += \
