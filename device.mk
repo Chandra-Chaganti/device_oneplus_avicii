@@ -29,9 +29,6 @@ $(call inherit-product-if-exists, vendor/google/gms/config.mk)
 # Pixel components
 $(call inherit-product-if-exists, vendor/google/pixel/config.mk)
 
-# Kernel Headers
-PRODUCT_KERNEL_HEADERS := $(LOCAL_PATH)/kernel-headers
-
 # World APN list
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/apns-conf.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/apns-conf.xml
