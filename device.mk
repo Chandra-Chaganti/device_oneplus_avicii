@@ -35,11 +35,9 @@ PRODUCT_COPY_FILES += \
 
 # Kernel
 LOCAL_KERNEL := $(LOCAL_PATH)/prebuilt/Image
-LOCAL_DTB := $(LOCAL_PATH)/prebuilt/dtb.img
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_KERNEL):kernel \
-    $(LOCAL_DTB):dtb.img
+    $(LOCAL_KERNEL):kernel
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \

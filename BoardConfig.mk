@@ -69,6 +69,8 @@ TARGET_KERNEL_HEADERS := kernel/oneplus/sm7250
 #KERNEL_TOOLCHAIN := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-proton/bin
 #TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-gnu-
 BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/dtbo.img
+TARGET_PREBUILT_DTB := $(DEVICE_PATH)/prebuilt/dtb.img
+BOARD_MKBOOTIMG_ARGS += --dtb $(TARGET_PREBUILT_DTB)
 
 # Platform
 BOARD_USES_QCOM_HARDWARE := true
