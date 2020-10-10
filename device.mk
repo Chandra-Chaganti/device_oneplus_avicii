@@ -226,13 +226,11 @@ PRODUCT_PACKAGES += \
 
 # NFC
 PRODUCT_PACKAGES += \
-    android.hardware.nfc@1.0:64 \
-    android.hardware.nfc@1.1:64 \
-    android.hardware.nfc@1.2:64 \
-    android.hardware.nfc@2.0:64 \
     com.android.nfc_extras \
+    com.gsma.services.nfc \
     NfcNci \
-    Tag \
+    SecureElement \
+    Tag
 
 # Power
 #PRODUCT_PACKAGES += \
